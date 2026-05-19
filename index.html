@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tareas</title>
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+ 
+  <div id="bienvenida"></div>
+
+  <h2>Tareas</h2>
+
+  <div>
+    <input type="text" id="inputTarea" placeholder="Nueva tarea..." />
+    <button id="btnAgregar">Agregar</button>
+  </div>
+
+  <div id="filtros">
+    <button id="btn-todas">Todas</button>
+    <button id="btn-pendientes">Pendientes</button>
+    <button id="btn-completadas">Completadas</button>
+  </div>
+
+  <ul id="listaTareas"></ul>
+
+  <div id="contador"></div>
+
+  <div style="margin-top: 16px; display:flex; gap:10px; align-items:center; justify-content:flex-end;">
+    <button id="btnTema" class="theme-btn" type="button" aria-label="Alternar modo">Modo oscuro</button>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+
+ 
