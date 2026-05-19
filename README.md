@@ -8,9 +8,6 @@ Contenido del repositorio
 - `script.js` — lógica de la app (almacenamiento, render, filtros, tema)
 - `style.css` — estilos básicos con soporte claro/oscuro
 
-
- Abre en el navegador: http://localhost:8000
-
 Uso breve
 
 - Escribe una tarea y pulsa "Agregar" (o Enter).
